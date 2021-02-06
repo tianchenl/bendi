@@ -1,0 +1,1425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>东莞理工学院城市学院</title>
+    <meta name="description" content="东莞理工学院城市学院">
+    <meta name="keywords" content="东莞理工学院城市学院">
+    <!--[if lte IE 8]>
+	<link rel="stylesheet" type="text/css" href="/phone/css/ie.css">
+	<script type="text/javascript" src="/phone/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="/phone/js/iealert.js"></script>
+	<script type="text/javascript">
+		//检测IE兼容	   
+		$("body").iealert();	
+	</script>
+
+<![endif]-->
+<!--[if IE 8]>
+	<style type="text/css">
+		#ie-alert-panel {
+			width:600px;
+			height:400px;
+		}
+	</style>
+<![endif]-->
+<link rel="stylesheet" href="/phone/css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="/phone/css/style.css?v=20191012">
+<script src="//libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="/phone/js/swiper.min.js"></script>
+<script src="/layui/lay/modules/layer.js"></script>
+
+
+    <script type="text/javascript" src="/phone/js/jquery.bay-window.js"></script>
+
+</head>
+
+
+
+<body>
+    <img src="/phone/images/0.jpg" style="width: 1px; height: 1px; position: fixed; top: -10000px; left: -10000px;">
+
+<div class="page-top-box">
+    <div class="pagemm top">
+        <a href="/" class="logo"><img src="/phone/images/index_ico_03.png?v=1"></a>
+        <div class="href-box">
+            <div class="item">
+
+                <a href="http://zhuye.ccdgut.edu.cn/" target="_blank" class="href" style="line-height: 48px">
+                    返回旧版网站 >>
+                </a>
+            </div>
+            <div class="item">
+                <a href="http://oa.ccdgut.edu.cn:8090/login/index.jsp?code=null" target="_blank">
+                    <img src="/phone/images/i1.png" class="donghua">
+                    <div class="bt">OA登陆</div>
+                </a>
+            </div>
+            <div class="item">
+                <a onclick="showewm('/phone/images/0.jpg')" style="cursor: pointer;">
+                    <img src="/phone/images/i3.png" class="donghua">
+                    <div class="bt">官方微信</div>
+                </a>
+            </div>
+            <!-- <div class="item">
+        <a href="https://vpn.ccdgut.edu.cn/" target="_blank">
+          <img src="/phone/images/i2.png" class="donghua">
+          <div class="bt">VPN登陆</div>
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://weibo.com/dgutcsxy" target="_blank">
+          <img src="/phone/images/i3.png" class="donghua">
+          <div class="bt">官方微博</div>
+        </a>
+      </div>
+      <div class="item">
+        <a href="/dan.html" >
+          <img src="/phone/images/i4.png" class="donghua">
+          <div class="bt">校长邮箱</div>
+        </a>
+      </div> -->
+            <div class="item">
+                <a href="/dan.html">
+                    <img src="/phone/images/i4.png" class="donghua">
+                    <div class="bt">董事长信箱</div>
+                </a>
+            </div>
+        </div>
+        <div class="menu-btn donghua" data-on="">
+            <div class="donghua"></div>
+            <div class="donghua"></div>
+        </div>
+    </div>
+    <div class="menu-box" id="menu-box">
+        <div class="pagemm nav">
+            <div class="item"><a class="a on" href="/">首页</a></div>
+            <div class="item"><a class="a " data-i="1" href="/about.html">学校概况</a></div>
+            <div class="item"><a class="a " data-i="4" href="/news.html">融媒体中心</a></div>
+            <div class="item"><a class="a " data-i="10" href="http://zzb.ccdgut.edu.cn/"
+                    target="_blank">党建工作</a></div>
+            <div class="item"><a class="a " data-i="11" href="http://jwc.ccdgut.edu.cn/"
+                    target="_blank">人才培养</a></div>
+            <div class="item"><a class="a" data-i="12" href="http://yfc.ccdgut.edu.cn/" target="_blank">科技研发</a></div>
+            <div class="item"><a class="a " data-i="13" href="http://zjc.ccdgut.edu.cn/"
+                    target="_blank">招生与就业</a></div>
+            <div class="item"><a class="a " data-i="6" href="http://tafe.ccdgut.edu.cn/"
+                    target="_blank">继续教育</a></div>
+            <div class="item"><a class="a " href="http://rsc.ccdgut.edu.cn/newslist.php?catid=5">人才招聘</a></div>
+            <div class="item"><a class="a " href="http://shhz.ccdgut.edu.cn/">社会合作</a></div>
+            
+                    </div>
+        <!-- 下拉 -->
+        <div class="xiala donghua">
+                        <div class="xl-box pagemm" data-i="13">
+                <div class="new-xlbox">
+                                        <a class="tu"
+                        target="_blank"                        >
+                                <img src=" /upfile/2019061350093673.jpg">
+                    </a>
+                                        <div class="bbt">招生与就业</div>
+                    <div class="textbox">
+                                                <a class="ha ellipsis" href="http://zjc.ccdgut.edu.cn/index.php/Home/New/index/cate_id/1/order/8"
+                            target="_blank">就业信息</a>
+                                                <a class="ha ellipsis" href="http://zjc.ccdgut.edu.cn/index.php/Home/New/index/cate_id/1/order/8"
+                            target="_blank">就业指南</a>
+                                                <a class="ha ellipsis" href="http://zjc.ccdgut.edu.cn/index.php/Home/Com/company"
+                            target="_blank">企业招聘</a>
+                                                <a class="ha ellipsis" href="http://zjc.ccdgut.edu.cn/index.php/Home/New/index/cate_id/2"
+                            target="_blank">政策规划</a>
+                                                <a class="ha ellipsis" href="http://zjc.ccdgut.edu.cn/index.php/Home/New/index/cate_id/1/order/7"
+                            target="_blank">招生信息</a>
+                                                <a class="ha ellipsis" href="http://zjc.ccdgut.edu.cn/index.php/Home/New/index/cate_id/1/order/7"
+                            target="_blank">专业介绍</a>
+                                            </div>
+
+                </div>
+            </div>
+                        <div class="xl-box pagemm" data-i="12">
+                <div class="new-xlbox">
+                                        <a class="tu"
+                        target="_blank"                        >
+                                <img src=" /upfile/2019061350043425.jpg">
+                    </a>
+                                        <div class="bbt">科技研发</div>
+                    <div class="textbox">
+                                                <a class="ha ellipsis" href="http://yfc.ccdgut.edu.cn/getArticles/6.html"
+                            target="_blank">发展规划</a>
+                                                <a class="ha ellipsis" href="http://yfc.ccdgut.edu.cn/getArticles/12.html"
+                            target="_blank">科研管理</a>
+                                                <a class="ha ellipsis" href="http://yfc.ccdgut.edu.cn/getArticles/55.html"
+                            target="_blank">学科建设</a>
+                                                <a class="ha ellipsis" href="http://yfc.ccdgut.edu.cn/getArticles/33.html"
+                            target="_blank">创新强校</a>
+                                                <a class="ha ellipsis" href="http://xtcx.ccdgut.edu.cn/"
+                            target="_blank">协同创新</a>
+                                                <a class="ha ellipsis" href="http://xb.ccdgut.edu.cn/"
+                            target="_blank">东莞理工城院论丛</a>
+                                            </div>
+
+                </div>
+            </div>
+                        <div class="xl-box pagemm" data-i="11">
+                <div class="new-xlbox">
+                                        <a class="tu"
+                        target="_blank"                        >
+                                <img src=" /upfile/2019062059949713.jpg">
+                    </a>
+                                        <div class="bbt">人才培养</div>
+                    <div class="textbox">
+                                                <a class="ha ellipsis" href="http://jwc.ccdgut.edu.cn/front/category/34.html"
+                            target="_blank">教务教材</a>
+                                                <a class="ha ellipsis" href="http://jwc.ccdgut.edu.cn/front/category/35.html"
+                            target="_blank">学籍考务</a>
+                                                <a class="ha ellipsis" href="http://jwc.ccdgut.edu.cn/front/category/36.html"
+                            target="_blank">教学主导</a>
+                                                <a class="ha ellipsis" href="http://jwc.ccdgut.edu.cn/front/category/23.html"
+                            target="_blank">实践教学</a>
+                                                <a class="ha ellipsis" href="http://jwc.ccdgut.edu.cn/front/category/29.html"
+                            target="_blank">质量工程</a>
+                                                <a class="ha ellipsis" href="http://tdc.ccdgut.edu.cn/"
+                            target="_blank">教师发展</a>
+                                            </div>
+
+                </div>
+            </div>
+                        <div class="xl-box pagemm" data-i="10">
+                <div class="new-xlbox">
+                                        <a class="tu"
+                        target="_blank"                        >
+                                <img src=" /upfile/2019061349938813.jpg">
+                    </a>
+                                        <div class="bbt">党建工作</div>
+                    <div class="textbox">
+                                                <a class="ha ellipsis" href="http://zzb.ccdgut.edu.cn/newslist.php?id=36"
+                            target="_blank">理论学习</a>
+                                                <a class="ha ellipsis" href="http://zzb.ccdgut.edu.cn/newslist.php?id=6"
+                            target="_blank">基层组织</a>
+                                                <a class="ha ellipsis" href="http://zzb.ccdgut.edu.cn/newslist.php?id=13"
+                            target="_blank">统战工作</a>
+                                                <a class="ha ellipsis" href="http://zzb.ccdgut.edu.cn/newslist.php?id=17"
+                            target="_blank">党建制度</a>
+                                                <a class="ha ellipsis" href="http://zzb.ccdgut.edu.cn/newslist.php?id=20"
+                            target="_blank">党校建设</a>
+                                                <a class="ha ellipsis" href="http://zzb.ccdgut.edu.cn/newslist.php?id=8"
+                            target="_blank">基层风采</a>
+                                            </div>
+
+                </div>
+            </div>
+                        <div class="xl-box pagemm" data-i="1">
+                <div class="new-xlbox">
+                                        <a class="tu"
+                                                >
+                                <img src=" /upfile/2019061349868349.jpg">
+                    </a>
+                                        <div class="bbt">学校概况</div>
+                    <div class="textbox">
+                                                <a class="ha ellipsis" href="/about/001001.html"
+                            >学校介绍</a>
+                                                <a class="ha ellipsis" href="/about/001002.html"
+                            >二级单位</a>
+                                                <a class="ha ellipsis" href="/about/001003.html"
+                            >组织架构</a>
+                                                <a class="ha ellipsis" href="/about/001004.html"
+                            >现任领导</a>
+                                                <a class="ha ellipsis" href="/about/001005.html"
+                            >领导关怀</a>
+                                                <a class="ha ellipsis" href="/about/001006.html"
+                            >校徽校训</a>
+                                                <a class="ha ellipsis" href="/about/001007.html"
+                            >学校风光</a>
+                                            </div>
+
+                </div>
+            </div>
+                        <div class="xl-box pagemm" data-i="4">
+                <div class="new-xlbox">
+                                        <a class="tu"
+                                                >
+                                <img src=" /upfile/2019061349880565.jpg">
+                    </a>
+                                        <div class="bbt">融媒体中心</div>
+                    <div class="textbox">
+                                                <a class="ha ellipsis" href="/news/000001.html"
+                            >学校要闻</a>
+                                                <a class="ha ellipsis" href="/hotnews.html"
+                            >头条新闻</a>
+                                                <a class="ha ellipsis" href="/news/000002.html"
+                            >部门动态</a>
+                                                <a class="ha ellipsis" href="/news/000005.html"
+                            >媒体关注</a>
+                                                <a class="ha ellipsis" href="/news/000004.html"
+                            >高教视野</a>
+                                                <a class="ha ellipsis" href="/news/000006.html"
+                            >城院视频</a>
+                                                <a class="ha ellipsis" href="http://dgcsxy.cuepa.cn/"
+                            target="_blank">数字校报</a>
+                                            </div>
+
+                </div>
+            </div>
+                        <div class="xl-box pagemm" data-i="6">
+                <div class="new-xlbox">
+                                        <a class="tu"
+                        target="_blank"                        >
+                                <img src=" /upfile/2019061349893061.jpg">
+                    </a>
+                                        <div class="bbt">继续教育</div>
+                    <div class="textbox">
+                                                <a class="ha ellipsis" href="http://tafe.ccdgut.edu.cn/newsshow.php?id=458"
+                            target="_blank">自考本科</a>
+                                                <a class="ha ellipsis" href="http://tafe.ccdgut.edu.cn/newslist.php?catid=184"
+                            target="_blank">法考培训</a>
+                                                <a class="ha ellipsis" href="http://tafe.ccdgut.edu.cn/newslist.php?catid=193"
+                            target="_blank">四级人资管理师</a>
+                                                <a class="ha ellipsis" href="http://tafe.ccdgut.edu.cn/newslist.php?catid=154"
+                            target="_blank">普通话测试</a>
+                                                <a class="ha ellipsis" href="http://tafe.ccdgut.edu.cn/newslist.php?catid=156"
+                            target="_blank">教师资格证</a>
+                                                <a class="ha ellipsis" href="http://tafe.ccdgut.edu.cn/newslist.php?catid=158"
+                            target="_blank">CCT计算机考</a>
+                                                <a class="ha ellipsis" href="http://tafe.ccdgut.edu.cn/newslist.php?catid=161"
+                            target="_blank">商务英语</a>
+                                                <a class="ha ellipsis" href="http://tafe.ccdgut.edu.cn/newslist.php?catid=165"
+                            target="_blank">创业培训</a>
+                                                <a class="ha ellipsis" href="http://tafe.ccdgut.edu.cn/newslist.php?catid=166"
+                            target="_blank">考研辅导班</a>
+                                            </div>
+
+                </div>
+            </div>
+                        <div class="xl-box pagemm" data-i="7">
+                <div class="new-xlbox">
+                                        <a class="tu"
+                        target="_blank"                        >
+                                <img src=" /upfile/2019061349893061.jpg">
+                    </a>
+                                        <div class="bbt">人才招聘</div>
+                    <div class="textbox">
+                                                <a class="ha ellipsis" href="/job/004000.html"
+                            >招聘信息</a>
+                                                <a class="ha ellipsis" href="/job/004001.html"
+                            >其它招聘</a>
+                                            </div>
+
+                </div>
+            </div>
+                        <div class="xl-box pagemm" data-i="8">
+                <div class="new-xlbox">
+                                        <a class="tu"
+                        target="_blank"                        >
+                                <img src=" /upfile/2019061349893061.jpg">
+                    </a>
+                                        <div class="bbt">公告</div>
+                    <div class="textbox">
+                                                <a class="ha ellipsis" href="/tongzhi/003001.html"
+                            >通知公告</a>
+                                                <a class="ha ellipsis" href="/tongzhi/003002.html"
+                            >招标公告</a>
+                                            </div>
+
+                </div>
+            </div>
+            
+        </div>
+        <!-- 下拉 end -->
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="phone-menu donghua">
+
+    <ul>
+                <li><a href="/" style="width:100%;" class="a">首页</a>
+            <div class="item"></div>
+        </li>
+        <li class="cz"><a href="/about.html" class="a">学校概况</a>
+                        <div class="item"></div>
+            <div class="xl">
+                                <a class="ha" href="/about/001001.html"
+                    >学校介绍</a>
+
+                                <a class="ha" href="/about/001002.html"
+                    >二级单位</a>
+
+                                <a class="ha" href="/about/001003.html"
+                    >组织架构</a>
+
+                                <a class="ha" href="/about/001004.html"
+                    >现任领导</a>
+
+                                <a class="ha" href="/about/001005.html"
+                    >领导关怀</a>
+
+                                <a class="ha" href="/about/001006.html"
+                    >校徽校训</a>
+
+                                <a class="ha" href="/about/001007.html"
+                    >学校风光</a>
+
+                            </div>
+                    </li>
+        <li class="cz"><a href="/news.html" class="a">融媒体中心</a>
+                        <div class="item"></div>
+            <div class="xl">
+                                <a class="ha" href="/news/000001.html"
+                    >学校要闻</a>
+
+                                <a class="ha" href="/hotnews.html"
+                    >头条新闻</a>
+
+                                <a class="ha" href="/news/000002.html"
+                    >部门动态</a>
+
+                                <a class="ha" href="/news/000005.html"
+                    >媒体关注</a>
+
+                                <a class="ha" href="/news/000004.html"
+                    >高教视野</a>
+
+                                <a class="ha" href="/news/000006.html"
+                    >城院视频</a>
+
+                                <a class="ha" href="http://dgcsxy.cuepa.cn/"
+                    target="_blank">数字校报</a>
+
+                            </div>
+                    </li>
+        <li class="cz"><a href="http://zzb.ccdgut.edu.cn/" target="_blank" class="a">党建工作</a>
+                        <div class="item"></div>
+            <div class="xl">
+                                <a class="ha" href="http://zzb.ccdgut.edu.cn/newslist.php?id=36"
+                    target="_blank">理论学习</a>
+
+                                <a class="ha" href="http://zzb.ccdgut.edu.cn/newslist.php?id=6"
+                    target="_blank">基层组织</a>
+
+                                <a class="ha" href="http://zzb.ccdgut.edu.cn/newslist.php?id=13"
+                    target="_blank">统战工作</a>
+
+                                <a class="ha" href="http://zzb.ccdgut.edu.cn/newslist.php?id=17"
+                    target="_blank">党建制度</a>
+
+                                <a class="ha" href="http://zzb.ccdgut.edu.cn/newslist.php?id=20"
+                    target="_blank">党校建设</a>
+
+                                <a class="ha" href="http://zzb.ccdgut.edu.cn/newslist.php?id=8"
+                    target="_blank">基层风采</a>
+
+                            </div>
+            
+        </li>
+        <li class="cz"><a href="http://jwc.ccdgut.edu.cn/" target="_blank" class="a">人才培养</a>
+                        <div class="item"></div>
+            <div class="xl">
+                                <a class="ha" href="http://jwc.ccdgut.edu.cn/front/category/34.html"
+                    target="_blank">教务教材</a>
+
+                                <a class="ha" href="http://jwc.ccdgut.edu.cn/front/category/35.html"
+                    target="_blank">学籍考务</a>
+
+                                <a class="ha" href="http://jwc.ccdgut.edu.cn/front/category/36.html"
+                    target="_blank">教学主导</a>
+
+                                <a class="ha" href="http://jwc.ccdgut.edu.cn/front/category/23.html"
+                    target="_blank">实践教学</a>
+
+                                <a class="ha" href="http://jwc.ccdgut.edu.cn/front/category/29.html"
+                    target="_blank">质量工程</a>
+
+                                <a class="ha" href="http://tdc.ccdgut.edu.cn/"
+                    target="_blank">教师发展</a>
+
+                            </div>
+                    </li>
+
+
+
+        <li class="cz"><a class="a" href="http://yfc.ccdgut.edu.cn/" target="_blank">科技研发</a>
+                        <div class="item"></div>
+            <div class="xl">
+                                <a class="ha" href="http://yfc.ccdgut.edu.cn/getArticles/6.html"
+                    target="_blank">发展规划</a>
+
+                                <a class="ha" href="http://yfc.ccdgut.edu.cn/getArticles/12.html"
+                    target="_blank">科研管理</a>
+
+                                <a class="ha" href="http://yfc.ccdgut.edu.cn/getArticles/55.html"
+                    target="_blank">学科建设</a>
+
+                                <a class="ha" href="http://yfc.ccdgut.edu.cn/getArticles/33.html"
+                    target="_blank">创新强校</a>
+
+                                <a class="ha" href="http://xtcx.ccdgut.edu.cn/"
+                    target="_blank">协同创新</a>
+
+                                <a class="ha" href="http://xb.ccdgut.edu.cn/"
+                    target="_blank">东莞理工城院论丛</a>
+
+                            </div>
+                    </li>
+
+        <li class="cz"><a href="http://zjc.ccdgut.edu.cn/" target="_blank" class="a">招生与就业</a>
+                        <div class="item"></div>
+            <div class="xl">
+                                <a class="ha" href="http://zjc.ccdgut.edu.cn/index.php/Home/New/index/cate_id/1/order/8"
+                    target="_blank">就业信息</a>
+
+                                <a class="ha" href="http://zjc.ccdgut.edu.cn/index.php/Home/New/index/cate_id/1/order/8"
+                    target="_blank">就业指南</a>
+
+                                <a class="ha" href="http://zjc.ccdgut.edu.cn/index.php/Home/Com/company"
+                    target="_blank">企业招聘</a>
+
+                                <a class="ha" href="http://zjc.ccdgut.edu.cn/index.php/Home/New/index/cate_id/2"
+                    target="_blank">政策规划</a>
+
+                                <a class="ha" href="http://zjc.ccdgut.edu.cn/index.php/Home/New/index/cate_id/1/order/7"
+                    target="_blank">招生信息</a>
+
+                                <a class="ha" href="http://zjc.ccdgut.edu.cn/index.php/Home/New/index/cate_id/1/order/7"
+                    target="_blank">专业介绍</a>
+
+                            </div>
+                    </li>
+        <li class="cz"><a href="http://tafe.ccdgut.edu.cn/" class="a" target="_blank">继续教育</a>
+                        <div class="item"></div>
+            <div class="xl">
+                                <a class="ha" href="http://tafe.ccdgut.edu.cn/newsshow.php?id=458"
+                    target="_blank">自考本科</a>
+                                <a class="ha" href="http://tafe.ccdgut.edu.cn/newslist.php?catid=184"
+                    target="_blank">法考培训</a>
+                                <a class="ha" href="http://tafe.ccdgut.edu.cn/newslist.php?catid=193"
+                    target="_blank">四级人资管理师</a>
+                                <a class="ha" href="http://tafe.ccdgut.edu.cn/newslist.php?catid=154"
+                    target="_blank">普通话测试</a>
+                                <a class="ha" href="http://tafe.ccdgut.edu.cn/newslist.php?catid=156"
+                    target="_blank">教师资格证</a>
+                                <a class="ha" href="http://tafe.ccdgut.edu.cn/newslist.php?catid=158"
+                    target="_blank">CCT计算机考</a>
+                                <a class="ha" href="http://tafe.ccdgut.edu.cn/newslist.php?catid=161"
+                    target="_blank">商务英语</a>
+                                <a class="ha" href="http://tafe.ccdgut.edu.cn/newslist.php?catid=165"
+                    target="_blank">创业培训</a>
+                                <a class="ha" href="http://tafe.ccdgut.edu.cn/newslist.php?catid=166"
+                    target="_blank">考研辅导班</a>
+                            </div>
+                    </li>
+        <li><!--a href="/job.html" style="width:100%;" class="a">人才招聘</a-->
+        <a href="http://rsc.ccdgut.edu.cn/newslist.php?catid=5" style="width:100%;" class="a">人才招聘</a>
+            <div class="item"></div>
+        </li>
+        <li><a href="http://shhz.ccdgut.edu.cn/" style="width:100%;" class="a">社会合作</a>
+            <div class="item"></div>
+        </li>
+        
+        <li class="cz"><a class="a">友情链接</a>
+
+            <div class="item"></div>
+            <div class="xl">
+                                <a class="ha" href="http://edu.gd.gov.cn" target="_blank">广东省教育厅</a>
+
+                                <a class="ha" href="http://www.dgut.edu.cn" target="_blank">东莞理工学院</a>
+
+                                <a class="ha" href="http://www.hongfagroup.net" target="_blank">广东鸿发投资集团有限公司</a>
+
+                                <a class="ha" href="http://www.hongfaedu.com" target="_blank">广东鸿发教育文化集团有限公司</a>
+
+                                <a class="ha" href="http://www.dg.gov.cn" target="_blank">东莞政府网</a>
+
+                                <a class="ha" href="http://www.sun0769.com" target="_blank">东莞阳光网</a>
+
+                                <a class="ha" href="http://www.timedg.com" target="_blank">东莞时间网</a>
+
+                                <a class="ha" href="http://www.chinafxj.cn" target="_blank">中国反邪教网</a>
+
+                                <a class="ha" href="http://lxyz.12371.cn" target="_blank">“两学一做”学习教育网</a>
+
+                            </div>
+
+        </li>
+
+            </ul>
+    <div class="href-box">
+        <div class="item">
+            <a href="http://oa.ccdgut.edu.cn:8090/login/index.jsp?code=null" target="_blank">
+                <img src="/phone/images/i1.png" class="donghua">
+                <div class="bt">OA登陆</div>
+            </a>
+        </div>
+        <div class="item">
+            <a onclick="showewm('/phone/images/0.jpg')">
+                <img src="/phone/images/i3.png" class="donghua">
+                <div class="bt">官方微信</div>
+            </a>
+        </div>
+
+
+        <!--     <div class="item">
+        <a href="https://vpn.ccdgut.edu.cn/" target="_blank">
+          <img src="/phone/images/i2.png" class="donghua">
+          <div class="bt">VPN登陆</div>
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://weibo.com/dgutcsxy" target="_blank">
+          <img src="/phone/images/i3.png" class="donghua">
+          <div class="bt">官方微博</div>
+        </a>
+      </div>
+      <div class="item">
+        <a href="/dan.html">
+          <img src="/phone/images/i4.png" class="donghua">
+          <div class="bt">校长邮箱</div>
+        </a>
+      </div> -->
+        <div class="item">
+            <a href="/dan.html">
+                <img src="/phone/images/i4.png" class="donghua">
+                <div class="bt">董事长信箱</div>
+            </a>
+        </div>
+
+    </div>
+</div>
+<div class="phone-dan donghua"></div>            <div class="swiper-container index-banner ibanner-h ">
+            <div class="swiper-wrapper ibanner-h">
+                                    <div class="swiper-slide img-common ibanner-h" data-title="" style="background-image: url(/upfile/1601448517949513.jpg);">
+                        <a class="ibanner-h" style="display: block; width: 94%; max-width: 1200px; margin: auto;"  ></a>
+                    </div>
+                                    <div class="swiper-slide img-common ibanner-h" data-title="" style="background-image: url(/upfile/1600945392212639.jpg);">
+                        <a class="ibanner-h" style="display: block; width: 94%; max-width: 1200px; margin: auto;" target="_blank" href="http://csxy.dgut.edu.cn/newsview/12402.html" title=""></a>
+                    </div>
+                                    <div class="swiper-slide img-common ibanner-h" data-title="" style="background-image: url(/upfile/1600822052196843.jpg);">
+                        <a class="ibanner-h" style="display: block; width: 94%; max-width: 1200px; margin: auto;"  ></a>
+                    </div>
+                                    <div class="swiper-slide img-common ibanner-h" data-title="杨振宁、范曾来我院签名赠书" style="background-image: url(/upfile/2019052856390449.jpg);">
+                        <a class="ibanner-h" style="display: block; width: 94%; max-width: 1200px; margin: auto;" target="_blank" href="/newsview/3226.html" title="杨振宁、范曾来我院签名赠书"></a>
+                    </div>
+                                    <div class="swiper-slide img-common ibanner-h" data-title="" style="background-image: url(/upfile/2019061349802033.jpg);">
+                        <a class="ibanner-h" style="display: block; width: 94%; max-width: 1200px; margin: auto;"  ></a>
+                    </div>
+                                    <div class="swiper-slide img-common ibanner-h" data-title="" style="background-image: url(/upfile/2019061453029425.jpg);">
+                        <a class="ibanner-h" style="display: block; width: 94%; max-width: 1200px; margin: auto;"  ></a>
+                    </div>
+                                    <div class="swiper-slide img-common ibanner-h" data-title="" style="background-image: url(/upfile/2019061453048881.jpg);">
+                        <a class="ibanner-h" style="display: block; width: 94%; max-width: 1200px; margin: auto;"  ></a>
+                    </div>
+                                    <div class="swiper-slide img-common ibanner-h" data-title="" style="background-image: url(/upfile/1580797173813148.png);">
+                        <a class="ibanner-h" style="display: block; width: 94%; max-width: 1200px; margin: auto;"  ></a>
+                    </div>
+                            </div>
+            <div class="fly-box ">
+                <div class="pagemm swiper-container-horizontal">
+                    <div class="swiper-button-prev donghua"></div>
+                    <div class="swiper-button-next donghua"></div>
+                    <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-bullets-dynamic"></div>
+                    <div class="bbt">
+                        <div class="ellipsis btb donghua" id="bannerbbt"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    
+
+
+            <div class="flower-top">
+            <div class="pagemm ft-list">
+                <div class="t-bbt">
+                    头条新闻
+                    <a href="/news.html?istop=1" class="href">MORE</a>
+                </div>
+                <div class="list">
+                                            <div class="item">
+                            <div class="tu"><a href="/newsview/12465.html" title="党委中心组举行扩大会学习《习近平谈治国理政》第三卷" target="_blank"><img src="/upfile/160194854030498.jpg" class="coverImg donghua"></a></div>
+                            <div class="title ellipsis"><a href="/newsview/12465.html" title="党委中心组举行扩大会学习《习近平谈治国理政》第三卷" target="_blank">党委中心组举行扩大会学习《习近平谈治国理政》第三卷</a></div>
+                            <div class="demo ellipsis2" style="text-indent: 2em"></div>
+                            <div class="href"><a href="/newsview/12465.html" title="查看详情" target="_blank">查看详情</a></div>
+                        </div>                         <div class="item">
+                            <div class="tu"><a href="/newsview/12401.html" title="你好，新城院人！ 我校2020级新生入学报到" target="_blank"><img src="/upfile/1600589233830170.jpg" class="coverImg donghua"></a></div>
+                            <div class="title ellipsis"><a href="/newsview/12401.html" title="你好，新城院人！ 我校2020级新生入学报到" target="_blank">你好，新城院人！ 我校2020级新生入学报到</a></div>
+                            <div class="demo ellipsis2" style="text-indent: 2em"></div>
+                            <div class="href"><a href="/newsview/12401.html" title="查看详情" target="_blank">查看详情</a></div>
+                        </div>                 </div>
+            </div>
+        </div>
+    
+
+
+    <!-- 新闻 -->
+    <div class="flower-down">
+        <div class="pagemm fd-list">
+                            <!--   左边新闻 -->
+                <div class="left">
+                    <div class="fdt-type">
+                        <div class="swiper-container gallery-thumbs">
+                            <div class="swiper-wrapper">
+                                                                    <div class="swiper-slide" data-url="/news/000001.html">学校要闻</div>
+                                                                    <div class="swiper-slide" data-url="/news/000002.html">部门动态</div>
+                                                                    <div class="swiper-slide" data-url="/news/000005.html">媒体关注</div>
+                                                            </div>
+                        </div>
+                        <a id="zuohref" href="/news/000001.html" class="href">MORE</a>
+                    </div>
+                    <div class="list-box">
+                        <div class="swiper-container gallery-top">
+                            <div class="swiper-wrapper">
+                                                                    <div class="swiper-slide">
+                                                                                    <div class="item">
+                                                <a href="/newsview/12530.html" title="我校党校第二十九期发展对象培训班开班仪式顺利举行" target="_blank"><span>2020-10-09</span>
+                                                    <div class="title ellipsis">我校党校第二十九期发展对象培训班开班仪式顺利举行</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="/newsview/12529.html" title="石志民副院长开讲“礼赞光辉历程，奋进崭新时代——我党及共和国发展历史回顾”主题讲座" target="_blank"><span>2020-10-09</span>
+                                                    <div class="title ellipsis">石志民副院长开讲“礼赞光辉历程，奋进崭新时代——我党及共和国发展历史回顾”主题讲座</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="/newsview/12516.html" title="2020年全国独立学院科研竞争力评价结果发布  我校位列第21名" target="_blank"><span>2020-10-08</span>
+                                                    <div class="title ellipsis">2020年全国独立学院科研竞争力评价结果发布  我校位列第21名</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="/newsview/12510.html" title="我校十项省级厅级市级项目喜获立项" target="_blank"><span>2020-10-07</span>
+                                                    <div class="title ellipsis">我校十项省级厅级市级项目喜获立项</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="/newsview/12502.html" title="我校荣获第九届广东省大学生机械创新设计大赛六项大奖！" target="_blank"><span>2020-10-05</span>
+                                                    <div class="title ellipsis">我校荣获第九届广东省大学生机械创新设计大赛六项大奖！</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="/newsview/12490.html" title="我校党委荣获高校基层党组织党建工作创新案例一等奖" target="_blank"><span>2020-09-30</span>
+                                                    <div class="title ellipsis">我校党委荣获高校基层党组织党建工作创新案例一等奖</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="/newsview/12483.html" title="我校参加全省民办学校党建工作推进会" target="_blank"><span>2020-09-28</span>
+                                                    <div class="title ellipsis">我校参加全省民办学校党建工作推进会</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="/newsview/12482.html" title="我校官微荣获2019年度广东高校新媒体三等奖" target="_blank"><span>2020-09-28</span>
+                                                    <div class="title ellipsis">我校官微荣获2019年度广东高校新媒体三等奖</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="/newsview/12477.html" title="王卫平校长开讲“思政第一课”：民族解放、国家强大、民族复兴靠谁人？" target="_blank"><span>2020-09-28</span>
+                                                    <div class="title ellipsis">王卫平校长开讲“思政第一课”：民族解放、国家强大、民族复兴靠谁人？</div>
+                                                </a>
+                                            </div>
+                                                                            </div>
+                                                                    <div class="swiper-slide">
+                                                                                    <div class="item">
+                                                <a href="http://ysx.ccdgut.edu.cn/newsshow.php?id=1086" title="艺术学院党总支书记开讲“坚定文化自信 铸造民族灵魂”" target="_blank"><span>2020-10-09</span>
+                                                    <div class="title ellipsis">艺术学院党总支书记开讲“坚定文化自信 铸造民族灵魂”</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="http://sxy.ccdgut.edu.cn/webfile/NewsView.asp?ID=3013&amp;SortID=232&amp;SortPath=0,173,232" title="学习四史秉初心，防疫抗疫显担当——关于党史、新中国史、改革开放史、社会主义发展史及新冠肺炎疫情防控知识竞答决赛圆满落幕" target="_blank"><span>2020-10-09</span>
+                                                    <div class="title ellipsis">学习四史秉初心，防疫抗疫显担当——关于党史、新中国史、改革开放史、社会主义发展史及新冠肺炎疫情防控知识竞答决赛圆满落幕</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="http://ysx.ccdgut.edu.cn/newsshow.php?id=1084" title="艺术学院与东城文化服务中心共建实践教学基地" target="_blank"><span>2020-10-09</span>
+                                                    <div class="title ellipsis">艺术学院与东城文化服务中心共建实践教学基地</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="http://sxy.ccdgut.edu.cn/webfile/NewsView.asp?ID=3012&amp;SortID=258&amp;SortPath=0,111,258" title="商学院第三届“职上云霄，梦想引航”大学生职业规划大赛完美落幕" target="_blank"><span>2020-10-09</span>
+                                                    <div class="title ellipsis">商学院第三届“职上云霄，梦想引航”大学生职业规划大赛完美落幕</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="http://ysx.ccdgut.edu.cn/newsshow.php?id=1085" title="艺术学院学生党支部顺利举行预备党员接收会议" target="_blank"><span>2020-10-09</span>
+                                                    <div class="title ellipsis">艺术学院学生党支部顺利举行预备党员接收会议</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="http://znzzxy.ccdgut.edu.cn/news.php?act=show&amp;id=2323" title="“理论新飞跃 行动新指南”——智能制造学院党员教师学习《习近平谈治国理政》第三卷" target="_blank"><span>2020-10-09</span>
+                                                    <div class="title ellipsis">“理论新飞跃 行动新指南”——智能制造学院党员教师学习《习近平谈治国理政》第三卷</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="http://znzzxy.ccdgut.edu.cn/news.php?act=show&amp;id=2322" title="智能制造学院开展2019-2020学年度先进班集体评选大会" target="_blank"><span>2020-10-09</span>
+                                                    <div class="title ellipsis">智能制造学院开展2019-2020学年度先进班集体评选大会</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="http://jwc.ccdgut.edu.cn/front/article/2156.html" title="我校召开2021年新增学士学位授予专业评审工作推进会" target="_blank"><span>2020-10-09</span>
+                                                    <div class="title ellipsis">我校召开2021年新增学士学位授予专业评审工作推进会</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="http://wcx.ccdgut.edu.cn/news.asp?Postsid=18&amp;catid=20&amp;id=3095" title="文学与传媒学院课外学分政策内容宣讲会议顺利开展" target="_blank"><span>2020-10-09</span>
+                                                    <div class="title ellipsis">文学与传媒学院课外学分政策内容宣讲会议顺利开展</div>
+                                                </a>
+                                            </div>
+                                                                            </div>
+                                                                    <div class="swiper-slide">
+                                                                                    <div class="item">
+                                                <a href="http://zgsc.china.com.cn/2020-09/24/content_41308445.html" title="中国网 | 创意如潮涌 东莞理工学院城市学院大广赛上荣获佳绩" target="_blank"><span>2020-09-25</span>
+                                                    <div class="title ellipsis">中国网 | 创意如潮涌 东莞理工学院城市学院大广赛上荣获佳绩</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="http://zgsc.china.com.cn/2020-09/24/content_41308128.html" title="中国网 | 一样的迎新季，不一样的东莞理工学院城市学院" target="_blank"><span>2020-09-25</span>
+                                                    <div class="title ellipsis">中国网 | 一样的迎新季，不一样的东莞理工学院城市学院</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="https://baijiahao.baidu.com/s?id=1678436446253667799&amp;wfr=spider&amp;for=pc" title="潇湘晨报 | 东莞理工学院城市学院2020级新生顺利报到" target="_blank"><span>2020-09-22</span>
+                                                    <div class="title ellipsis">潇湘晨报 | 东莞理工学院城市学院2020级新生顺利报到</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="https://baijiahao.baidu.com/s?id=1678410513323679391&amp;wfr=spider&amp;for=pc" title="羊城晚报 | 报到啦！东莞理工学院城市学院2020级新生入学" target="_blank"><span>2020-09-22</span>
+                                                    <div class="title ellipsis">羊城晚报 | 报到啦！东莞理工学院城市学院2020级新生入学</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="http://edu.sun0769.com/001/202009/t20200921_16128437.shtml" title="东莞阳光网 | 终于等到你！ 城市学院2020级新生顺利报到" target="_blank"><span>2020-09-22</span>
+                                                    <div class="title ellipsis">东莞阳光网 | 终于等到你！ 城市学院2020级新生顺利报到</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="https://www.gzdaily.cn/amucsite/pad/index.html#/detail/1380217?site4" title="广州日报 | 东莞理工学院城市学院2020级新生今日报到" target="_blank"><span>2020-09-22</span>
+                                                    <div class="title ellipsis">广州日报 | 东莞理工学院城市学院2020级新生今日报到</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="https://epaper.timedg.com/html/2020-08/25/content_1624547.htm" title="（东莞日报）“互联网+”大学生创新创业大赛广东省赛决赛在华南理工大学举行 东莞本土高校获佳绩" target="_blank"><span>2020-08-27</span>
+                                                    <div class="title ellipsis">（东莞日报）“互联网+”大学生创新创业大赛广东省赛决赛在华南理工大学举行 东莞本土高校获佳绩</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="http://my-h5news.app.xinhuanet.com/h5/article.html?articleId=eb97650dd99cfb5c3e7d2fc8475fd6f7&amp;share_device_token=6631174E-6CD4-4BFC-994B-CFB07DA35102&amp;share_time=1597244947613&amp;share_type=1&amp;from=groupmessage" title="（新华网）“数”说教育丨王卫平：深化校企合作 培养高素质应用型人才" target="_blank"><span>2020-08-17</span>
+                                                    <div class="title ellipsis">（新华网）“数”说教育丨王卫平：深化校企合作 培养高素质应用型人才</div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="http://t.m.china.com.cn/convert/c_1LvWMLFF.html?from=singlemessage&amp;isappinstalled=0" title="（中国网）东莞理工学院城市学院举行2020年“云”毕业典礼" target="_blank"><span>2020-06-18</span>
+                                                    <div class="title ellipsis">（中国网）东莞理工学院城市学院举行2020年“云”毕业典礼</div>
+                                                </a>
+                                            </div>
+                                                                            </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--   左边新闻 end-->
+            
+                <!--   右边新闻 -->
+                <div class="right">
+                    <div class="fdt-type">
+                        <div class="swiper-container gallery-thumbs1">
+                            <div class="swiper-wrapper">
+                                                                    <div class="swiper-slide" data-url="/tongzhi/003001.html">通知公告</div>
+                                                                    <div class="swiper-slide" data-url="/tongzhi/003002.html">招标公告</div>
+                                                            </div>
+                        </div>
+                        <a id="zuohref1" href="/tongzhi/003001.html" class="href">MORE</a>
+                    </div>
+                    <div class="list-box">
+                        <div class="swiper-container gallery-top1">
+                            <div class="swiper-wrapper">
+                                                                    <div class="swiper-slide">
+                                                                                    <div class="item">
+                                                <a href="/tongzhiview/12297.html" title="关于华为创新班项目收费标准的公示" target="_blank">
+                                                    <div class="datebox">
+                                                        <div class="b">03</div>
+                                                        <div class="s">2020-09</div>
+                                                    </div>
+                                                    <div class="title ellipsis2">关于华为创新班项目收费标准的公示</div>
+                                                    <!--         <div class="href">查看</div> -->
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="http://cwc.ccdgut.edu.cn/webfile/NewsView.asp?ID=710" title="东莞理工学院城市学院2020年专插本新生缴费通知" target="_blank">
+                                                    <div class="datebox">
+                                                        <div class="b">06</div>
+                                                        <div class="s">2020-08</div>
+                                                    </div>
+                                                    <div class="title ellipsis2">东莞理工学院城市学院2020年专插本新生缴费通知</div>
+                                                    <!--         <div class="href">查看</div> -->
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="/tongzhiview/12257.html" title="关于2020年度学校拟申报1个本科新专业的公示" target="_blank">
+                                                    <div class="datebox">
+                                                        <div class="b">15</div>
+                                                        <div class="s">2020-07</div>
+                                                    </div>
+                                                    <div class="title ellipsis2">关于2020年度学校拟申报1个本科新专业的公示</div>
+                                                    <!--         <div class="href">查看</div> -->
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="/tongzhiview/12229.html" title="关于2+2国际本科班项目收费标准的公示" target="_blank">
+                                                    <div class="datebox">
+                                                        <div class="b">08</div>
+                                                        <div class="s">2020-07</div>
+                                                    </div>
+                                                    <div class="title ellipsis2">关于2+2国际本科班项目收费标准的公示</div>
+                                                    <!--         <div class="href">查看</div> -->
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="http://cwc.ccdgut.edu.cn/webfile/NewsView.asp?ID=703" title="财务﹝2020﹞7号  关于2019-2020学年期末及暑假期间财务报账工作的通知" target="_blank">
+                                                    <div class="datebox">
+                                                        <div class="b">06</div>
+                                                        <div class="s">2020-07</div>
+                                                    </div>
+                                                    <div class="title ellipsis2">财务﹝2020﹞7号  关于2019-2020学年期末及暑假期间财务报账工作的通知</div>
+                                                    <!--         <div class="href">查看</div> -->
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="http://cwc.ccdgut.edu.cn/webfile/NewsView.asp?ID=703" title="财务﹝2020﹞7号  关于2019-2020学年期末及暑假期间财务报账工作的通知" target="_blank">
+                                                    <div class="datebox">
+                                                        <div class="b">06</div>
+                                                        <div class="s">2020-07</div>
+                                                    </div>
+                                                    <div class="title ellipsis2">财务﹝2020﹞7号  关于2019-2020学年期末及暑假期间财务报账工作的通知</div>
+                                                    <!--         <div class="href">查看</div> -->
+                                                </a>
+                                            </div>
+                                                                            </div>
+                                                                    <div class="swiper-slide">
+                                                                                    <div class="item">
+                                                <a href="http://cwc.ccdgut.edu.cn/webfile/NewsView.asp?ID=721" title="东莞理工学院城市学院商业网点招标公告" target="_blank">
+                                                    <div class="datebox">
+                                                        <div class="b">23</div>
+                                                        <div class="s">2020-09</div>
+                                                    </div>
+                                                    <div class="title ellipsis2">东莞理工学院城市学院商业网点招标公告</div>
+                                                    <!--         <div class="href">查看</div> -->
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="http://cwc.ccdgut.edu.cn/webfile/NewsView.asp?ID=720" title="东莞理工学院城市学院智能制造学院实验室设备增购招标文件" target="_blank">
+                                                    <div class="datebox">
+                                                        <div class="b">23</div>
+                                                        <div class="s">2020-09</div>
+                                                    </div>
+                                                    <div class="title ellipsis2">东莞理工学院城市学院智能制造学院实验室设备增购招标文件</div>
+                                                    <!--         <div class="href">查看</div> -->
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="http://cwc.ccdgut.edu.cn/webfile/NewsView.asp?ID=719" title="东莞理工学院城市学院环境工程实验室设备采购招标文件" target="_blank">
+                                                    <div class="datebox">
+                                                        <div class="b">23</div>
+                                                        <div class="s">2020-09</div>
+                                                    </div>
+                                                    <div class="title ellipsis2">东莞理工学院城市学院环境工程实验室设备采购招标文件</div>
+                                                    <!--         <div class="href">查看</div> -->
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="http://cwc.ccdgut.edu.cn/webfile/NewsView.asp?ID=718" title="东莞理工学院城市学院土木工程实验室设备采购招标文件" target="_blank">
+                                                    <div class="datebox">
+                                                        <div class="b">23</div>
+                                                        <div class="s">2020-09</div>
+                                                    </div>
+                                                    <div class="title ellipsis2">东莞理工学院城市学院土木工程实验室设备采购招标文件</div>
+                                                    <!--         <div class="href">查看</div> -->
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="http://cwc.ccdgut.edu.cn/webfile/NewsView.asp?ID=717" title="东莞理工学院城市学院多媒体教室投影机设备采购招标文件" target="_blank">
+                                                    <div class="datebox">
+                                                        <div class="b">22</div>
+                                                        <div class="s">2020-09</div>
+                                                    </div>
+                                                    <div class="title ellipsis2">东莞理工学院城市学院多媒体教室投影机设备采购招标文件</div>
+                                                    <!--         <div class="href">查看</div> -->
+                                                </a>
+                                            </div>
+                                                                                    <div class="item">
+                                                <a href="http://cwc.ccdgut.edu.cn/webfile/NewsView.asp?ID=716" title="城院二期评估机构需求公告" target="_blank">
+                                                    <div class="datebox">
+                                                        <div class="b">03</div>
+                                                        <div class="s">2020-09</div>
+                                                    </div>
+                                                    <div class="title ellipsis2">城院二期评估机构需求公告</div>
+                                                    <!--         <div class="href">查看</div> -->
+                                                </a>
+                                            </div>
+                                                                            </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <!--   右边新闻 end-->
+                    </div>
+    </div>
+
+    <!-- 新闻 end-->
+
+
+
+            <!-- 滚动图片 -->
+        <div class="index-gun-box">
+
+            <div class="swiper-container ig-box">
+
+                <div class="swiper-wrapper">
+                                            <div class="swiper-slide" data-title="<%=f_urltitle%>">
+                            <a target="_blank" href="http://ice.ccdgut.edu.cn/index.php" title="国际交流">
+                                <img class="coverImg donghua" src="/upfile/2019062035897481.jpg">
+                                <div class="text">国际交流</div>
+                                <div class="href donghua"><span>查看</span></div>
+                            </a>
+
+                        </div>
+
+
+                                            <div class="swiper-slide" data-title="<%=f_urltitle%>">
+                            <a target="_blank" href="http://tw.ccdgut.edu.cn/" title="校园文化">
+                                <img class="coverImg donghua" src="/upfile/2019050756833101.jpg">
+                                <div class="text">校园文化</div>
+                                <div class="href donghua"><span>查看</span></div>
+                            </a>
+
+                        </div>
+
+
+                                            <div class="swiper-slide" data-title="<%=f_urltitle%>">
+                            <a target="_blank" href="/student.html" title="学生服务">
+                                <img class="coverImg donghua" src="/upfile/2019062063641137.jpg">
+                                <div class="text">学生服务</div>
+                                <div class="href donghua"><span>查看</span></div>
+                            </a>
+
+                        </div>
+
+
+                                            <div class="swiper-slide" data-title="<%=f_urltitle%>">
+                            <a target="_blank" href="http://xyh.ccdgut.edu.cn/" title="校友服务">
+                                <img class="coverImg donghua" src="/upfile/2019050756847917.jpg">
+                                <div class="text">校友服务</div>
+                                <div class="href donghua"><span>查看</span></div>
+                            </a>
+
+                        </div>
+
+
+                                    </div>
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next btn"></div>
+                <div class="swiper-button-prev btn"></div>
+            </div>
+
+        </div>
+        <!-- 滚动图片 end-->
+    
+    <div class="footer-box">
+    <div class="pagemm foot">
+        <img class="footerlogo" src="/phone/images/index_ico_47.png">
+        <div class="contact"><img src="/lib/kindeditor/asp/../../../upfile/image/20190426/20190426144438693869.png" alt="" width="31" height="18" title="" align="left" />学院地址：广东·东莞市寮步镇文昌路1号<br />
+<img src="/lib/kindeditor/asp/../../../upfile/image/20190426/20190426144488558855.png" alt="" style="white-space:normal;" width="31" height="18" title="" align="left" />招生热线：0769-23382107<br />
+<img src="/lib/kindeditor/asp/../../../upfile/image/20190426/20190426144434393439.png" alt="" style="white-space:normal;" width="31" height="18" title="" align="left" />传真：0769-23382630<br />
+<img src="/lib/kindeditor/asp/../../../upfile/image/20190426/20190426144410801080.png" alt="" style="white-space:normal;" width="31" height="18" title="" align="left" />邮编：523419<br /></div>
+        <div class="f-right">
+            <div class="f-list">
+                <div class="item">
+                    <a href="/info.html">
+                        <img src="/phone/images/fi1.png">
+                        信息公开
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="http://xyh.ccdgut.edu.cn/webfile/" target="_blank">
+                        <img src="/phone/images/fi2.png">
+                        校友网站
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="http://map.ccdgut.edu.cn/" target="_blank">
+                        <img src="/phone/images/fi3.png">
+                        虚拟校园
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="http://dgcsxy.cuepa.cn/" target="_blank">
+                        <img src="/phone/images/fi4.png">
+                        数字院报
+                    </a>
+                </div>
+            </div>
+            <!-- 友情链接 -->
+                            <div class="f-linkbox">
+                    <div class="bbt">二级单位</div>
+                    <div class="fly donghua">
+
+                                                    <div class="box" data-on="on">
+                                <div class="bbt-z">教学单位<div class="biao"></div>
+                                </div>
+                                <div class="ll">
+                                                                                <a target="_blank" href="http://sxy.ccdgut.edu.cn/" title="商学院">商学院</a>
+                                                                                <a target="_blank" href="http://jmx.ccdgut.edu.cn/" title="金融与贸易学院">金融与贸易学院</a>
+                                                                                <a target="_blank" href="http://chx.ccdgut.edu.cn/" title="城建与环境学院">城建与环境学院</a>
+                                                                                <a target="_blank" href="http://jxx.ccdgut.edu.cn/" title="计算机与信息学院">计算机与信息学院</a>
+                                                                                <a target="_blank" href="http://zfx.ccdgut.edu.cn/" title="法学院">法学院</a>
+                                                                                <a target="_blank" href="http://wcx.ccdgut.edu.cn/" title="文学与传媒学院">文学与传媒学院</a>
+                                                                                <a target="_blank" href="http://wyx.ccdgut.edu.cn/" title="外国语学院">外国语学院</a>
+                                                                                <a target="_blank" href="http://cysj.ccdgut.edu.cn/" title="创意设计学院">创意设计学院</a>
+                                                                                <a target="_blank" href="http://znzzxy.ccdgut.edu.cn/" title="智能制造学院">智能制造学院</a>
+                                                                                <a target="_blank" href="http://ysx.ccdgut.edu.cn/" title="艺术学院">艺术学院</a>
+                                                                                <a target="_blank" href="http://szb.ccdgut.edu.cn/" title="马克思主义学院">马克思主义学院</a>
+                                                                                <a target="_blank" href="http://cxcyxy.ccdgut.edu.cn/" title="创新创业学院">创新创业学院</a>
+                                                                                <a target="_blank" href="http://tyb.ccdgut.edu.cn/" title="体育教学部">体育教学部</a>
+                                                                    </div>
+                            </div>
+                                                    <div class="box" >
+                                <div class="bbt-z">行政单位<div class="biao"></div>
+                                </div>
+                                <div class="ll">
+                                                                                <a target="_blank" href="http://yb.ccdgut.edu.cn/" title="党政办公室">党政办公室</a>
+                                                                                <a target="_blank" href="http://zzb.ccdgut.edu.cn/" title="组织(统战)部">组织(统战)部</a>
+                                                                                <a target="_blank" href="http://jwc.ccdgut.edu.cn/" title="教务处">教务处</a>
+                                                                                <a target="_blank" href="http://yfc.ccdgut.edu.cn/" title="科技处">科技处</a>
+                                                                                <a target="_blank" href="http://cwc.ccdgut.edu.cn/" title="财务处">财务处</a>
+                                                                                <a target="_blank" href="http://zjc.ccdgut.edu.cn/" title="招生与就业">招生与就业</a>
+                                                                                <a target="_blank" href="http://zwc.ccdgut.edu.cn/" title="后勤保卫处">后勤保卫处</a>
+                                                                                <a target="_blank" href="http://gh.ccdgut.edu.cn/" title="工会">工会</a>
+                                                                                <a target="_blank" href="http://rsc.ccdgut.edu.cn/" title="人事处">人事处</a>
+                                                                                <a target="_blank" href="http://xsc.ccdgut.edu.cn/" title="学生处">学生处</a>
+                                                                                <a target="_blank" href="/news.html" title="融媒体中心">融媒体中心</a>
+                                                                                <a target="_blank" href="http://tw.ccdgut.edu.cn/" title="校团委">校团委</a>
+                                                                                <a target="_blank" href="http://tafe.ccdgut.edu.cn/" title="继续教育中心">继续教育中心</a>
+                                                                                <a target="_blank" href="http://ice.ccdgut.edu.cn/" title="国际交流中心">国际交流中心</a>
+                                                                                <a target="_blank" href="http://syzx.ccdgut.edu.cn/" title="实验中心">实验中心</a>
+                                                                                <a target="_blank" href="http://lib.ccdgut.edu.cn/" title="图书信息中心">图书信息中心</a>
+                                                                                <a target="_blank" href="http://tdc.ccdgut.edu.cn/" title="教师发展中心">教师发展中心</a>
+                                                                    </div>
+                            </div>
+                                                    <div class="box" >
+                                <div class="bbt-z">专题网站<div class="biao"></div>
+                                </div>
+                                <div class="ll">
+                                                                                <a target="_blank" href="http://xyh.ccdgut.edu.cn/" title="校友会">校友会</a>
+                                                                                <a target="_blank" href="http://xq.ccdgut.edu.cn/" title="周年校庆">周年校庆</a>
+                                                                                <a target="_blank" href="http://map.ccdgut.edu.cn/" title="虚拟校园">虚拟校园</a>
+                                                                                <a target="_blank" href="http://xb.ccdgut.edu.cn/" title="东莞理工城院论丛">东莞理工城院论丛</a>
+                                                                    </div>
+                            </div>
+                                            </div>
+
+                </div>
+            
+
+                            <select onchange="goyou(this.value)" class="f-linkbox">
+                    <option value="">友情链接</option>
+
+                    
+                        <option value="http://edu.gd.gov.cn">广东省教育厅</option>
+
+                    
+                        <option value="http://www.dgut.edu.cn">东莞理工学院</option>
+
+                    
+                        <option value="http://www.hongfagroup.net">广东鸿发投资集团有限公司</option>
+
+                    
+                        <option value="http://www.hongfaedu.com">广东鸿发教育文化集团有限公司</option>
+
+                    
+                        <option value="http://www.dg.gov.cn">东莞政府网</option>
+
+                    
+                        <option value="http://www.sun0769.com">东莞阳光网</option>
+
+                    
+                        <option value="http://www.timedg.com">东莞时间网</option>
+
+                    
+                        <option value="http://www.chinafxj.cn">中国反邪教网</option>
+
+                    
+                        <option value="http://lxyz.12371.cn">“两学一做”学习教育网</option>
+
+                                    </select>
+                        <!-- 友情链接 end-->
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="bottom pagemm">
+
+            <br />
+<br />
+<a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备13027914号-1</a>&nbsp;Copyright© 2014-2019 东莞理工学院城市学院. AllRightsReserved 策划·维护融媒体中心 <a href="https://www.starkay.com" target="_blank">网站支持</a><br />
+网站稿件版权归东莞理工学院城市学院<span style="white-space:normal;">融媒体中心</span>所有，未经许可不得转载使用            <div class="fg"></div>
+            <script type="text/javascript" src="https://s4.cnzz.com/z_stat.php?id=1000477715&web_id=1000477715"></script>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<script type="text/javascript">
+    $(window).scroll(function() {
+        showgotop();
+    });
+
+    function goyou(zhi) {
+        if (zhi != "") {
+            window.open(zhi, "_blank");
+        }
+    }
+
+    function showgotop() {
+        var bt = $(window).scrollTop();
+        if (bt > 400) {
+            $("#gotop").slideDown(300);
+        } else {
+            $("#gotop").slideUp(300);
+        }
+    }
+
+    function gotop() {
+        $('html, body').stop().animate({
+            scrollTop: 0
+        }, 800);
+    }
+
+
+    $(function() {
+        showgotop();
+        $(".f-linkbox .fly .box .bbt-z").click(function() {
+            var on = $(this).parent().attr("data-on");
+            $(".f-linkbox .fly .box").attr("data-on", "")
+            if (on == "on") {
+                $(this).parent().attr("data-on", "")
+            } else {
+                $(this).parent().attr("data-on", "on")
+            }
+        });
+        $(".menu-btn").click(function() {
+            var a = $(this).attr("data-on");
+            if (a == "on") {
+                $(".menu-btn,body").attr("data-on", "");
+
+            } else {
+                $(".menu-btn,body").attr("data-on", "on");
+            }
+        })
+        $(".phone-dan").click(function(event) {
+            $(".menu-btn,body").attr("data-on", "");
+        });
+        $(".phone-menu ul li.cz .item").click(function() {
+            var a = $(this).parent().attr("data-on");
+            if (a == "on") {
+                $(this).parent().children(".xl").stop().slideUp(300);
+                $(this).parent().attr("data-on", "");
+            } else {
+                $(this).parent().children(".xl").stop().slideDown(300);
+                $(this).parent().attr("data-on", "on");
+            }
+        })
+        $("#menu-box .nav .item").hover(function() {
+            var i = $(this).children(".a").attr("data-i");
+            $("#menu-box .nav .item").attr("data-on", "");
+            $(this).attr("data-on", "on");
+            $("#menu-box").attr("data-i", i || -1);
+            $("#menu-box").attr("data-y", "");
+            if (i > -1) {
+                $("#menu-box .xiala .xl-box").css("display", "none");
+                $("#menu-box").attr("data-show", "on");
+                $("#menu-box .xiala .xl-box[data-i='" + i + "']").css("display", "block");
+                $("#menu-box .xiala").attr("data-i", i || -1);
+                $("#menu-box").attr("data-y", 1);
+            }
+        }, function() {
+            if ($("#menu-box").attr("data-i") != $("#menu-box .xiala").attr("data-i")) {
+                $("#menu-box").attr("data-i", -1);
+            }
+
+            setTimeout("navgun()", 300);
+        });
+        $("#menu-box .xiala").hover(function() {
+            $("#menu-box").attr("data-y", 1);
+        }, function() {
+            setTimeout("navgun()", 300);
+            $("#menu-box").attr("data-y", "");
+        })
+    })
+
+    function navgun() {
+        if ($("#menu-box").attr("data-i") != $("#menu-box .xiala").attr("data-i") || $("#menu-box").attr("data-y") == "") {
+            $("#menu-box .nav .item").attr("data-on", "");
+            $("#menu-box").attr("data-show", "");
+        } else {
+            setTimeout("navgun()", 300);
+        }
+    }
+
+    function showewm(url) {
+
+        layer.open({
+            type: 1,
+            title: false,
+            closeBtn: 0,
+            area: '240px',
+            skin: 'layui-layer-nobg', //没有背景色
+            shadeClose: true,
+            content: "<img src='" + url + "' style='width:240px; height:240px;'>"
+        });
+    }
+</script>    
+</body>
+
+</html>
+
+
+
+<script>
+    $(function() {
+
+        var galleryThumbs = new Swiper('.gallery-thumbs', {
+            slidesPerView: 'auto',
+            freeMode: true,
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+        });
+        var galleryTop = new Swiper('.gallery-top', {
+            spaceBetween: 10,
+            autoHeight: true,
+            autoplay: {
+                delay: 300000000,
+                stopOnLastSlide: false,
+                disableOnInteraction: true,
+            },
+
+            // preventClicksPropagation:false,
+            on: {
+                slideChange: function(res) {
+                    var url = $(".gallery-thumbs .swiper-wrapper .swiper-slide").eq(this.activeIndex).attr("data-url");
+                    $("#zuohref").attr("href", url);
+                },
+            },
+            thumbs: {
+                swiper: galleryThumbs
+            }
+        });
+        var galleryThumbs1 = new Swiper('.gallery-thumbs1', {
+            slidesPerView: 'auto',
+            freeMode: true,
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+        });
+        var galleryTop1 = new Swiper('.gallery-top1', {
+            spaceBetween: 10,
+            autoHeight: true,
+
+            autoplay: {
+                delay: 300000000,
+                stopOnLastSlide: false,
+                disableOnInteraction: true,
+            },
+            // preventClicksPropagation:false, 
+            on: {
+                slideChange: function(res) {
+                    var url = $(".gallery-thumbs1 .swiper-wrapper .swiper-slide").eq(this.activeIndex).attr("data-url");
+                    $("#zuohref1").attr("href", url);
+                },
+            },
+            thumbs: {
+                swiper: galleryThumbs1
+            }
+        });
+        $(".fd-list .left .list-box").hover(function() {
+            galleryTop.autoplay.stop();
+        }, function() {
+            galleryTop.autoplay.start();
+        });
+        $(".fd-list .right .list-box").hover(function() {
+            galleryTop1.autoplay.stop();
+        }, function() {
+            galleryTop1.autoplay.start();
+        });
+
+
+                    var gu_swiper = new Swiper('.ig-box', {
+                slidesPerView: 4,
+                spaceBetween: 5,
+                preventDefault: false,
+                preventClicksPropagation: false,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                breakpoints: {
+                    1024: {
+                        slidesPerView: 4,
+                        spaceBetween: 5,
+                    },
+                    768: {
+                        slidesPerView: 3,
+                        spaceBetween: 10,
+                    },
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 10,
+                    }
+                }
+            });
+                            var swiper = new Swiper('.index-banner', {
+                effect: "fade",
+                loop: true,
+                disableOnInteraction: false,
+                pagination: {
+                    el: '.swiper-pagination',
+                    dynamicBullets: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                on: {
+                    slideChange: function(res) {
+                        var html = $(".index-banner .swiper-wrapper .swiper-slide").eq(this.activeIndex).attr("data-title");
+                        $("#bannerbbt").html("<span>" + html + "</span>");
+                        if (html != "") {
+                            $("#bannerbbt").css("opacity", "1");
+                        } else {
+                            $("#bannerbbt").css("opacity", "0");
+                        }
+                    },
+                },
+                autoplay: {
+                    delay: 6000,
+                    stopOnLastSlide: false,
+                    disableOnInteraction: true,
+                },
+                preventDefault: false,
+                preventClicksPropagation: false
+            });
+            });
+</script>

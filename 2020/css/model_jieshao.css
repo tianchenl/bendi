@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+
+.img-common1 {
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.zi-banner{
+	height: 400px;
+}
+.zi-main{
+	background: #f9f7ec;
+	min-height: 10rem;
+	position: relative;
+}
+.zi-main:before{
+	background: #f0eee3;
+	height: 10rem;
+	width: 100%;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.zi-main-box{
+	margin: auto;
+	width: 94%;
+	max-width: 1200px;
+	z-index: 2;
+}
+.zi-wenzi{
+	padding-left: 1.5rem; 
+	height: 3.8rem;
+	line-height: 3.85rem;
+	font-weight: bold;
+	background: url(../images/ico_home_05.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 1rem auto;
+}
+.zi-wenzi a{
+	color: #828282;
+}
+.zi-wenzi a.on{
+	color: #25613f;
+}
+.zi-wenzi span{
+	padding: 0 0.5rem;
+    font-family: 'simsun';
+}
+.zi-main-show{
+	position: relative;
+	margin: auto;
+	width: 94%;
+	max-width: 1200px;
+	min-height: 300px;
+	overflow: hidden;
+	background: #fff;
+}
+.zi-main-show:before{
+	content: "";
+	display: block;
+	position: absolute;
+	height: 6.2rem;
+	width: 100%;
+	top:0;
+	left: 0;
+	background: #f5f5f5;
+	background: linear-gradient(to bottom, #fff 0%, #f5f5f5 100%);
+	border-bottom: 1px solid #e6e6e6;
+}
+.zi-main-show:after{
+	content: "";
+	display:block;
+	clear: both;
+}
+.zi-left{
+	float: left;
+	position: relative;
+	width: 22.5%;
+	z-index: 2;
+}
+.zi-left-top{
+	border-bottom: 3px solid #dacfb3;
+	padding-top: 85%;
+	position: relative;
+}
+.zi-left:before{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 20000000px;
+	position: absolute;
+	top: 0;
+	background: #96cac3;
+}
+.zi-left-top img{
+	width: 100%;
+	height: 100%;
+	object-fit:cover;
+	position: absolute;
+	top: 0;
+}
+.zi-left-top .zi-bbt{
+	width: 100%;
+	height: 3.8rem;
+	padding: 0 1.2rem;
+	background: rgba(37,96,63,.8);
+	position: absolute;
+	bottom: 0;
+	z-index: 3;
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 3.85rem;
+}
+.zi-bottom-item{
+	width: 100%;
+	border: 1px solid #e8e8de;
+	border-top: 0;
+	background: #f9f9f9;
+	position: relative;
+}
+.zi-bottom-item.on:after{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 3px;
+	height: 100%;
+	background: #25613f;
+	top: 0;
+	left: -1px;
+}
+.zi-bottom-item a{
+	font-size: 1.1rem;
+	line-height: 1.8rem;
+	display: block;
+	padding: 1rem 1rem 1rem 2.6rem;
+	position: relative;
+}
+.zi-bottom-item a:before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	margin-top: -2px;
+	border-top: 1px solid #25613f;
+    border-right: 1px solid #25613f;
+    top: 1.9rem;
+    left: 1rem;
+    transform:rotate(45deg);
+}
+.zi-bottom-item.on a{
+	background: #fff;
+	color: #25613f;
+	font-weight: bold;
+}
+.zi-right{
+	width: 69.1%;
+	float: right;
+	padding-top: 6.2rem;
+	margin-right: 4.2%;
+	position: relative;
+}
+.zi-right .zi-right-bbt{
+	position: absolute;
+	top: 2.8rem;
+	left: 0;
+	font-size: 1.6rem;
+	font-weight: bold;
+	padding-left: 1.8rem;
+	height: 2rem;
+	line-height: 2.05rem;
+	color: #323232;
+	width: 100%;
+}
+.zi-right .zi-right-bbt:before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 6px;
+	height: 50%;
+	background: #25603f;
+	left: 0;
+	top:0;
+}
+.zi-right .zi-right-bbt:after{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 6px;
+	height: 50%;
+	background: #cbae64;
+	left: 0;
+	bottom:0;
+}
+.zi-right-about{
+	padding: 2rem 0;
+	color: #2c2c2c;
+	font-size: 1.05rem;
+	line-height: 2;
+}
+.zi-right-about img{
+	vertical-align: top;
+}

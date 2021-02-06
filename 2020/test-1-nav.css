@@ -1,0 +1,44 @@
+ul {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+li {
+	list-style-type: none;
+}
+nav {
+    background: #25383c;
+    text-align: center;
+}
+.nav-container-list {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.nav-list-item {
+	color: white;
+	display: inline-block;
+	}
+.nav-list-item a {
+	display: block;
+	padding: 20px 40px;
+}
+nav, .nav-submenu-list {
+	background: #25383c;
+	text-align: center;
+}
+.nav-list-item {
+	display: inline-block;
+	position: relative;
+}
+.nav-submenu-list {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 120%;
+}
+.nav-list-item:hover> ul {
+	display: block;
+}

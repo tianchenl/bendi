@@ -1,0 +1,125 @@
+ul {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+li {
+	list-style-type: none;
+}
+nav {
+    background: #25383c;
+    text-align: center;
+}
+
+.nav-list-item a {
+	color:white;
+	display: block;
+	padding: 20px 40px;
+}
+.nav-list-item:hover> ul {
+	display: block;
+}
+.nav-submenu-list {
+	display: none;
+	z-index: 1;
+}
+.menu-btn {
+	border: none;
+	padding: 8px 0;
+}
+.menu-btn:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.menu-btn-icon {
+	border: none;
+	width: 30px;
+	height: 30px;
+	background-size: cover;
+	float: left;
+	cursor: pointer;
+	margin-left: 10px;
+}
+article {
+	font-size: 1rem;
+	line-height: 1.625rem;
+	max-width: 42.8125em;
+	margin: 0 auto;
+	box-sizing:border-box;
+	padding: 1.25em;
+}
+@media all and (min-width: 480px) {
+	.nav-list-item:hover> ul {
+	    display: block;
+    }
+    .nav-list-item a {
+	    display: block;
+	padding: 20px 40px;
+    }
+	.nav-list-item {
+		display: inline-block;
+		position: relative;
+	}
+	.nav-submenu-list {
+		display: none;
+		position: absolute;
+		left: 0;
+		top: 100%;
+		z-index: 1;
+	}
+	nav, .nav-submenu-list {
+	background: #25383c;
+    }
+	.nav-container-list {
+		max-width: 1280px;
+		margin:0 auto;
+	}
+	.menu-btn {
+		display: none;
+	}
+	.flex-enable {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.flex-row {
+	-moz-box-direction:row;
+	-webkit-box-direction:row;
+	-webkit-box-orient:horizontal;
+	-webkit-flex-direction:row;
+	-ms-flexbox-direction:row;
+	-ms-flex-direction:row;
+	flex-direction:row;
+}
+.flex-justify-space-around {
+	justify-content:space-around;
+	-webkit-justify-content:space-around;
+	-ms-flex-pack:justify;
+	-webkit-box-pack:justify;
+	-moz-box-pack:justify;
+}
+article {
+	font-size: 1rem;
+	line-height: 1.625rem;
+	max-width: 42.8125em;
+	margin: 0 auto;
+	box-sizing:border-box;
+}	
+}
+@media all and (min-width: 600px) and (max-width: 685px){
+	article {
+		padding: 2.5em;
+	}
+}
+@media all and (min-width: 685px) {
+	article {
+		padding: 0;
+		margin-top: 2.5em;
+	}
+}
